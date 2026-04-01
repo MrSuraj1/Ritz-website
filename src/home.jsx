@@ -2,6 +2,7 @@ import AfterService from "./afterService";
 import Landscap from "./landscap";
 import Navbar from "./Navbar";
 import WhyChooseUs from "./service";
+import Footer from "./footer";
 
 function Home(){
 
@@ -13,6 +14,7 @@ function Home(){
   <Landscap />
   <WhyChooseUs />
   <AfterService />
+  <Footer />
 
     </>)
 }

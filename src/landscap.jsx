@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-
+import CaptureImage from './assets/Capture.jpg'
 export default function Landscap(){
 
 return(<>
@@ -15,12 +15,10 @@ return(<>
             <br></br><Link to='/ddd' className="text-2xl">Contact US <span className="ml-1 h-40 w-40 p-2 bg-yellow-600 text-xl rounded-full">→</span></Link>
     </div>
       
-      <div className="flex justify-center items-center  h-full mt-[-190px] p-28">
-            <br></br><img src="https://ritzmediaworld.com/4th_floor_rmw/home/banner/bn2.jpg"
-            className="w-full "
-            ></img>
-    </div>
-      
+      <div class="w-full">
+  <img src={CaptureImage} class="w-full block" />
+</div>
+
     </>)
 
 
